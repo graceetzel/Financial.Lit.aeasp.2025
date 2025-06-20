@@ -168,5 +168,5 @@ make_and_save_fig = lambda x : make_histogram_for(x, names_of_things,
                                                   mnw_survey_data,
                                                   x.replace(" ","") + "Hist")
 
-# Actually make a histogram
-make_fig("Fortran")
+if __name__ == "__main__":
+    make_fig("The Simpsons")
